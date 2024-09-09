@@ -1,11 +1,12 @@
 body {
-  background: rgb(85, 144, 189);
-  background: linear-gradient(
-    90deg,
-    rgba(85, 144, 189, 1) 0%,
-    rgba(108, 183, 240, 1) 54%,
-    rgba(182, 216, 242, 1) 82%
-  );
+  background: rgb(182, 242, 189);
+background: linear-gradient(
+  90deg,
+  rgba(182, 242, 189, 1) 0%,
+  rgba(144, 240, 182, 1) 54%,
+  rgba(216, 242, 216, 1) 82%
+);
+
   text-align: center;
   font-family: "Oswald", sans-serif;
 }
@@ -59,13 +60,7 @@ h1 {
   color: #333;
 }
 
-#spinner {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 
 .pagination {
   width: 90%;
